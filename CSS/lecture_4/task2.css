@@ -1,0 +1,43 @@
+img{
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h6{
+    text-align: center;
+    color:fuchsia;
+    font-size: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+h2{
+    text-align: center;
+    color: black;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.table{
+    text-align: center;
+    color: white;
+    background-color:deeppink;
+    border: 2px solid deeppink;
+}
+#1{
+    padding-right:2px;
+    text-align: center;
+    border: 2px solid deeppink;
+    margin: 0px 3px 0px 3px;
+    width: 500px;
+    
+}
+#2{
+    padding: 0 5px;
+    text-align: center;
+    border: 2px solid deeppink;
+    margin: 0px 3px 0px 3px;
+    justify-content: center;
+    box-sizing:content-box;
+    width: 100px
+}
+

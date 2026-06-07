@@ -1,0 +1,33 @@
+/* Tag Selector  */
+p{
+    font-size: 40px;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
+/* Universal Selector */
+*{
+    margin: 25px;
+    padding: 25px;
+}
+/* Grouping Selector */
+h1, h2, p {
+    margin: 25px;
+    padding: 25px;
+}
+/* Class Selector */
+.red {
+    color: red;
+}
+/* Id Selector  */
+#blue {
+    color: blue;
+}
+/* Descendant Selector */
+body p {
+    font-weight: bold;
+}
+/* Child Selector */
+body > p {
+    font-style: italic;
+}

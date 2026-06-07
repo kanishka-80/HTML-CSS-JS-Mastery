@@ -1,0 +1,119 @@
+.Days{
+    background-color: rgb(181, 227, 242);
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.Time{
+    background-color: rgb(171, 241, 171);
+    color: black;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#break{
+    background-color: lightgray;
+    color: black;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#border{
+    border-color: black;
+    border-width: 3px;
+    border-style:groove;
+}
+.head{
+    border-color:  solid black ;
+    border-width: 5px;
+    border-style:groove;
+}
+
+.html{
+    background-color: rgb(173, 216, 230);
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.css{
+    background-color: rgb(144, 238, 144);
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.Os{
+    background-color: rgb(255, 182, 193);
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}   
+.Django{
+    background-color: rgb(225, 225, 151);
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.Java{
+    background-color: rgb(255, 204, 153);
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.English{
+    background-color: rgb(255, 153, 255);
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.Go{
+    background-color: rgb(153, 255, 255);
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.Network{
+    background-color: rgb(255, 153, 204);
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.DataScience{
+    background-color: rgb(204, 153, 255);
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.Webdev{
+    background-color: rgb(153, 255, 153);
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.hindi{
+    background-color: rgb(255, 204, 204);
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}   
+.C++{
+    background-color: rgb(255, 153, 153);
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
