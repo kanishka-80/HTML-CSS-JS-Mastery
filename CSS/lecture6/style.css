@@ -1,7 +1,9 @@
+/* Base setup to reset margins */
 body {
     margin: 0;
     font-family: sans-serif;
 }
+
 .navbar {
     display: flex;
     align-items: center;
@@ -10,33 +12,39 @@ body {
     border-bottom: 1px solid #eee;
     height: 60px;
 }
+
 .nav-left, .nav-right {
     display: flex;
     align-items: center;
     gap: 15px;
 }
+
 .menu-icon {
     font-size: 24px;
     cursor: pointer;
 }
+
 .logo {
     font-family: serif;
     font-weight: bold;
     margin: 0;
     font-size: 28px;
 }
+
 .navbar input[type="search"] {
     padding: 8px 12px;
     border-radius: 20px;
     border: 1px solid #eee;
     background-color: #fafafa;
 }
+
 .write {
     font-size: 15px;
     cursor: pointer;
     color: rgb(116, 115, 115);
     margin: 0;
 }
+
 .button {
     width: 90px;
     height: 35px;
@@ -46,63 +54,79 @@ body {
     border: none;
     cursor: pointer;
 }
+
 .button2 {
     border: none;
     background: none;
     cursor: pointer;
 }
+
 .button2 img {
     border-radius: 50%;
     width: 32px;
     height: 32px;
     object-fit: cover;
 }
+
+/* Main Layout Structure */
 .main-container {
     display: grid;
     grid-template-columns: 18% 52% 30%;
     min-height: calc(100vh - 80px);
 }
+
+/* Sidebar styling without <br> tags */
 .sidebar {
     padding: 30px 20px;
     border-right: 1px solid #eee;
 }
+
 .no-bullets {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
+
 .no-bullets li {
     padding: 12px 0;
     color: #757575;
     cursor: pointer;
 }
+
 .no-bullets li.active {
     color: black;
     font-weight: bold;
 }
+
 .nav-divider {
     border: 0;
     border-top: 1px solid #eee;
     margin: 20px 0;
 }
+
+/* Feed & Posts */
 .feed {
     padding: 30px 40px;
 }
+
 .feedTabs {
     border-bottom: 1px solid #eee;
     padding-bottom: 10px;
     margin-bottom: 30px;
 }
+
 .feedTabs span {
     margin-right: 20px;
     color: #757575;
     cursor: pointer;
     font-size: 14px;
 }
+
 .feedTabs .active-tab {
     color: black;
     font-weight: 500;
 }
+
 .post {
     display: flex;
     justify-content: space-between;
@@ -111,44 +135,54 @@ body {
     border-bottom: 1px solid #fafafa;
     padding-bottom: 20px;
 }
+
 .post-content {
     flex: 1;
 }
+
 .post h2 { 
     font-size: 20px; 
     margin: 8px 0; 
     font-weight: bold;
 }
+
 .author { 
     font-size: 13px; 
     color: #292929; 
     margin: 0;
 }
-.content { 
+
+.excerpt { 
     color: #757575; 
     font-size: 15px; 
     margin: 0;
 }
+
 .post-image {
-    width: 300px;
-    height: 200px;
-    background-color: #eee;
-    overflow: hidden;
+    width: 112px;
+    height: 112px;
+    background-color: #f2f2f2;
 }
+
+/* Right Sidebar styling */
 .rightBar {
     padding: 30px;
     border-left: 1px solid #eee;
 }
+
 .staffPicks {
     margin-bottom: 30px;
 }
+
 .staffPicks span {
     font-size: 13px;
     color: #757575;
 }
+
 .staffPicks p {
     margin: 5px 0;
 }
+
 .topics button {
     background: #f2f2f2;
     border: none;
@@ -157,4 +191,60 @@ body {
     margin: 5px 2px;
     cursor: pointer;
     font-size: 13px;
+}
+active{
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+.art{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.art-text{
+    width: 70%;
+}
+
+.art h2{
+    margin-bottom: 10px;
+}
+
+.art p{
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.art small{
+    color: gray;
+}
+
+.art img{
+    width: 180px;
+    height: 100px;
+    object-fit: cover;
+}
+#directions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.flex{
+    width: 80%;
+    height: 100px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #555;
+}
+.span{
+    color: #555;
+    font-size: 14px;
 }
