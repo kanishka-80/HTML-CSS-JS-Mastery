@@ -38,3 +38,5 @@ console.log(n.replace("vishal","bunty"))
 console.log(n.replaceAll("vishal","bunty"))
 
 // split
+console.log(n.split(" "));
+
